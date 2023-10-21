@@ -5,9 +5,9 @@ User Data - <a href="/">Home</a><br/><br/>
         <td>Username</td><td> : </td><td><?= $user->getUsername() ?></td>
     </tr>
     <tr>
-        <td><img src="../assets/userPhoto/<?php echo $user->getPhoto(); ?>" alt="photo tidak ditemukan"></td>
+        <td><img src=<?= $user->getPhoto() ?> alt="photo tidak ditemukan"></td>
     </tr>
-    <!-- <tr>
-    <td>Username</td><td> : </td><td><?= $user->getPhoto() ?></td>
-    </tr> -->
+    <tr>
+    <td>Photo</td><td> : </td><td><?= $user->getPhoto() ?></td>
+    </tr>
 </table>

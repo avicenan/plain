@@ -21,9 +21,9 @@ class User {
     }
 
     // Tambahan untuk menampilkan photo user yang telah login (masih error)
-    // public function getPhoto() {
-    //     return $this->photo;
-    // }
+    public function getPhoto() {
+        return $this->photo;
+    }
 
 }
 ?>
